@@ -1,6 +1,5 @@
 /*ID: 21CE131
 Name: Rishi Shah
-Git Repository Link: https://github.com/21ce114/JAVA-Practicals.git
 AIM :Use the Account class created as above to simulate an ATM machine. 
 	 Create 10 accounts  with id AC001.....AC010  with  initial balance 300₹. 
 	 The system prompts the users to enter an id. 
