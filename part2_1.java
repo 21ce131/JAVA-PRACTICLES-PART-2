@@ -7,37 +7,30 @@ AIM : Design a class named Circle containing following attributes and behavior.
      •A method named getArea() that returns area of the Circle.
      •A method named getPerimeter() that returns perimeterof it.*/
 
-class Cylinder
-{
+class Cylinder{
 	double radius;
 	double height;
 	
-	Cylinder()
-  {
+	Cylinder(){
 		 radius = 1;
 		 height = 1;
 	}
-	Cylinder(double x)
-  {
+	Cylinder(double x){
 		radius = x;
 	}
-	Cylinder(double x,double y)
-  {
+	Cylinder(double x,double y){
 		radius = x;
 		height = y;
 	}
-	double getArea() 
-  {
+	double getArea(){
 		return 2*radius*Math.PI*(radius+height);
 	}
 }
 
-public class Part2_1 
-{
+public class Part2_1{
 
-	public static void main(String[] args) 
-  {
-    Cylinder c = new Cylinder(5.5,6.4);
+	public static void main(String[] args){
+                Cylinder c = new Cylinder(5.5,6.4);
 		System.out.println("Area = "+c.getArea());
 	}
 }
